@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="sbook" class="Book" init-method="initxml"
+		destroy-method="destroyxml">
+		<property name="bname" value="SpringBook" />
+	</bean>
+
+	<bean id="s1" class="Student">
+		<property name="sname" value="Amit" />
+		<property name="book">
+			<ref bean="sbook" />
+		</property>
+	</bean>
+
+	<bean
+		class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+</beans>

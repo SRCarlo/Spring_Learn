@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.controller.EmployeeController&apos; to &apos;EmpController&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootApp5_DataJPA&apos;&#x0D;&#x0A;- Original element: &apos;com.controller.EmployeeController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.controller.EmpController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EmployeeController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.controller{EmployeeController.java[EmployeeController" matchStrategy="1" name="EmpController" qualified="false" references="true" similarDeclarations="false" stamp="1734584289075" textual="false" version="1.0"/>
+</session>

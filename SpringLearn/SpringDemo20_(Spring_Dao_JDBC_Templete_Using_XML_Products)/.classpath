@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring_JDBC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SPRING-JARS"/>
+	<classpathentry kind="lib" path="C:/app/shubh/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/h2-1.3.175.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-aop-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-beans-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-context-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-core-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-expression-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-jdbc-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Software/SpringJdbcLib/SpringJdbcLib/SpringJdbcLib/spring-tx-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

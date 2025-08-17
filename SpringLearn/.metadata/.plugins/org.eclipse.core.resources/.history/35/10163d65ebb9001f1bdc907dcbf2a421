@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Team {
+	int tid;
+	String tname;
+	@Autowired
+	ArrayList<String> plist;
+	public Team() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Team(int tid, String tname, ArrayList<String> plist) {
+		super();
+		this.tid = tid;
+		this.tname = tname;
+		this.plist = plist;
+	}
+	
+	
+	
+
+}
